@@ -1,0 +1,94 @@
+/* leetcode-styles.css */
+
+.leetcode-container {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #4285f4;
+  }
+  
+  .table-container {
+    margin: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #4285f4;
+    color: #fff;
+  }
+  
+  button {
+    background-color: #4285f4;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+  }
+  
+  button:hover {
+    background-color: #1967d2;
+  }
+  
+  label {
+    margin-right: 10px;
+  }
+  
+  select, input {
+    padding: 8px;
+    margin-right: 10px;
+  }
+  
+  .leetcode-container p {
+    color: #757575;
+  }
+  
+  .search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-container label, .search-container input, .search-container button {
+    margin: 0 10px;
+  }
+  
+  .search-container input {
+    padding: 8px;
+  }
+  
+  /* Pagination styles */
+  .pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .pagination-container button {
+    margin: 0 5px;
+  }
+  
+  .pagination-info {
+    margin: 0 10px;
+    font-weight: bold;
+  }
+      
